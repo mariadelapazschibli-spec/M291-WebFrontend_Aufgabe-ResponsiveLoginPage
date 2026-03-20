@@ -33,3 +33,20 @@ body {
   padding: 5%;
   width: 200px;
 }
+
+#submitButton:enabled {
+  background-color: #793b44;
+  color: white;
+  border: 1px solid #793b44;
+}
+
+#submitButton:disabled {
+  background-color: lightgray;
+  color: black;
+  border: 1px solid lightgray;
+}
+
+#errorMessage {
+  color: #793b44;
+  font-size: 14px;
+}
